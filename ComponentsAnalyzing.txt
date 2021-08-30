@@ -1,0 +1,29 @@
+======== COMPONENTS ========
+
+>> Index Page
+    - Navbar
+        1. Logo Baze UI Navbar
+
+    - Contents
+        1. Icon Baze UI Orange
+        2. <p>A minimal setup for your frontend environment</p>
+        3. Buttons Get Started & Download
+
+>> Get Started Page
+    - Navbar
+        1. Button Sidebar
+        2. Link text & logo suitbaze
+        3. Github logo white
+     
+     - Page Sidebar
+        1. Get Started, Headings, Colors, 
+            Lists, Text Alignment, Buttons, 
+            Alert, Card, Media Object, Grid,
+            Table, Form, Tabs, Pagination, 
+            Font Awesome, Responsive Image, 
+            Plugins Dropdown (Slick Carousel, Air Datepicker), 
+            Mixin and Utils Functions
+
+     - Contents
+        1. Tag <h2>Environment</h2>
+        2. List NodeJs, Yeoman, Gulp, Git, XAMPP, Generator Baze
