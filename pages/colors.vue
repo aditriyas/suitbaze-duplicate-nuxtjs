@@ -366,7 +366,6 @@
 		</div>
 		<hr />
 		<footer class="container">© 2019 Suitmedia</footer>
-		<h1>KONTOL</h1>
 	</div>
 </template>
 
