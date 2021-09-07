@@ -8,16 +8,32 @@
 			<h4 class="heading-example">Heading 4</h4>
 			<h5 class="heading-example">Heading 5</h5>
 			<h6 class="heading-example">Heading 6</h6>
-			<code class="code-text">
-				<p class="code-text heading-tag">
-					&lt;h1&gt;Heading 1&lt;/h1&gt; <br />
-					&lt;h2&gt;Heading 2&lt;/h2&gt;<br />
-					&lt;h3&gt;Heading 3&lt;/h3&gt;<br />
-					&lt;h4&gt;Heading 4&lt;/h4&gt;<br />
-					&lt;h5&gt;Heading 5&lt;/h5&gt;<br />
-					&lt;h6&gt;Heading 6&lt;/h6&gt;
-				</p>
-			</code>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span
+				>Heading 1<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h1</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span
+				>Heading 2<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h2</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span
+				>Heading 3<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h3</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span
+				>Heading 4<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h4</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span
+				>Heading 5<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h5</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span
+				>Heading 6<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">h6</span>&gt;</span
+				></code
+			>
 			<hr />
 		</div>
 		<div class="container">
@@ -28,16 +44,56 @@
 			<p class="h4 text-size-example">Text size adjust h4</p>
 			<p class="h5 text-size-example">Text size adjust h5</p>
 			<p class="h6 text-size-example">Text size adjust h6</p>
-			<code class="code-text">
-				<p class="code-text heading-tag">
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-					&lt;p class="h1"&gt;Text size adjust h1&lt;p&gt; <br />
-				</p>
-			</code>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h1"</span
+					>&gt;</span
+				>Text size adjust h1<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h2"</span
+					>&gt;</span
+				>Text size adjust h2<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h3"</span
+					>&gt;</span
+				>Text size adjust h3<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h4"</span
+					>&gt;</span
+				>Text size adjust h4<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h5"</span
+					>&gt;</span
+				>Text size adjust h5<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"h6"</span
+					>&gt;</span
+				>Text size adjust h6<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 			<hr />
 			<footer class="container mb-32">© 2019 Suitmedia</footer>
 		</div>
@@ -52,14 +108,13 @@ export default {
 
 <style lang="scss" scoped>
 .main_content {
-	width: 70%;
+	width: 80%;
 	margin-left: 230px;
 	box-sizing: border-box;
 	margin-top: 50px;
 	height: 100%;
 	overflow: hidden;
 	padding: 60px 80px 80px 120px;
-	font-family: 'Poppins';
 }
 
 footer {
@@ -139,9 +194,31 @@ li {
 	font-size: 1em;
 }
 
-@media only screen and (max-width: 600px) {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: #be4678;
+	font-weight: lighter;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+	color: #2a9292;
+}
+
+@media only screen and (max-width: 1240px) {
 	.main_content {
 		margin: 0px 80px 0px 100px;
+		width: 92%;
 	}
 }
 </style>

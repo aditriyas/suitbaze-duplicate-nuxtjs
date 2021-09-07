@@ -77,14 +77,13 @@ export default {
 
 <style lang="scss" scoped>
 .main_content {
-	width: 70%;
+	width: 80%;
 	margin-left: 230px;
 	box-sizing: border-box;
 	margin-top: 50px;
 	height: 100%;
 	overflow: hidden;
 	padding: 60px 80px 80px 120px;
-	font-family: 'Poppins';
 }
 
 hr {
@@ -108,6 +107,7 @@ a:hover {
 h2 {
 	font-weight: 700;
 	color: #ff6700;
+	font-family: 'Fira Code';
 }
 
 .wrapper .main_content .header {
@@ -143,9 +143,31 @@ p {
 	margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: #be4678;
+	font-weight: lighter;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+	color: #2a9292;
+}
+
+@media only screen and (max-width: 1240px) {
 	.main_content {
 		margin: 0px 80px 0px 100px;
+		width: 92%;
 	}
 }
 </style>

@@ -9,26 +9,64 @@
 			<p class="text-black">Text class color = ".text-black"</p>
 			<p class="text-light-grey">Text class color = ".text-light-grey"</p>
 			<p class="text-white">Text class color = ".text-white"</p>
-			<code class="code-text">
-				<p class="code-text text-color-tag text-light">
-					&lt;p&gt; class="text-primary"&gt;Text class color =
-					".text-primary&lt;/p&gt; <br />
-					&lt;p&gt; class="text-secondary"&gt;Text class color =
-					".text-secondary&lt;/p&gt; <br />
-					&lt;p&gt; class="text-warning"&gt;Text class color =
-					".text-warning&lt;/p&gt; <br />
-					&lt;p&gt; class="text-danger"&gt;Text class color =
-					".text-danger&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black"&gt;Text class color =
-					".text-black&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-light-grey"&gt;Text class color =
-					".text-light-grey&lt;/p&gt; <br />
-					&lt;p&gt; class="text-white"&gt;Text class color =
-					".text-white&lt;/p&gt;
-				</p>
-			</code>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-primary"</span
+					>&gt;</span
+				>Text class color = ".text-primary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-secondary"</span
+					>&gt;</span
+				>Text class color = ".text-secondary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-warning"</span
+					>&gt;</span
+				>Text class color = ".text-warning"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-danger"</span
+					>&gt;</span
+				>Text class color = ".text-danger"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black"</span
+					>&gt;</span
+				>Text class color = ".text-black"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-light-grey"</span
+					>&gt;</span
+				>Text class color = ".text-light-grey"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-white"</span
+					>&gt;</span
+				>Text class color = ".text-white"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 		</div>
 		<hr />
 		<div class="container">
@@ -40,26 +78,65 @@
 			<p class="bg-black">Background class color = ".bg-black"</p>
 			<p class="bg-light-grey">Background class color = ".bg-light-grey"</p>
 			<p class="bg-white">Background class color = ".bg-white"</p>
-			<code class="code-text">
-				<p class="code-text text-color-tag text-light">
-					&lt;p&gt; class="bg-primary"&gt;Text class color =
-					".bg-primary&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="bg-secondary"&gt;Text class color =
-					".bg-secondary&lt;/p&gt; <br />
-					&lt;p&gt; class="bg-warning"&gt;Text class color =
-					".bg-warning&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="bg-danger"&gt;Text class color =
-					".bg-danger&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="bg-black"&gt;Text class color = ".bg-black&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="bg-light-grey"&gt;Text class color =
-					".bg-light-grey&lt;/p&gt; <br />
-					&lt;p&gt; class="bg-white"&gt;Text class color = ".bg-white&lt;/p&gt;
-				</p>
-			</code>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-primary"</span
+					>&gt;</span
+				>Background class color = ".bg-primary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				>
+				<br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-secondary"</span
+					>&gt;</span
+				>Background class color = ".bg-secondary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-warning"</span
+					>&gt;</span
+				>Background class color = ".bg-warning"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-danger"</span
+					>&gt;</span
+				>Background class color = ".bg-danger"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-black"</span
+					>&gt;</span
+				>Background class color = ".bg-black"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-light-grey"</span
+					>&gt;</span
+				>Background class color = ".bg-light-grey"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"bg-white"</span
+					>&gt;</span
+				>Background class color = ".bg-white"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 		</div>
 		<hr />
 		<div class="container">
@@ -74,39 +151,88 @@
 			<p class="text-black80">Black tone = ".text-black80" ($black80)</p>
 			<p class="text-black90">Black tone = ".text-black90" ($black90)</p>
 			<p class="text-black">Black tone = ".text-black" ($black)</p>
-			<code class="code-text">
-				<p class="code-text text-color-tag text-light">
-					&lt;p&gt; class="text-black10"&gt;Black tone = ".text-black10"
-					($black10)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black20"&gt;Black tone = ".text-black20"
-					($black20)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black30"&gt;Black tone = ".text-black30"
-					($black30)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black40"&gt;Black tone = ".text-black40"
-					($black40)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black50"&gt;Black tone = ".text-black50"
-					($black50)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black60"&gt;Black tone = ".text-black60"
-					($black60)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black70"&gt;Black tone = ".text-black70"
-					($black70)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black80"&gt;Black tone = ".text-black80"
-					($black80)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black90"&gt;Black tone = ".text-black90"
-					($black90)&lt;/p&gt;
-					<br />
-					&lt;p&gt; class="text-black"&gt;Black tone = ".text-black"
-					($black)&lt;/p&gt;
-				</p>
-			</code>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black10"</span
+					>&gt;</span
+				>Black tone = ".text-black10" ($black10)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black20"</span
+					>&gt;</span
+				>Black tone = ".text-black20" ($black20)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black30"</span
+					>&gt;</span
+				>Black tone = ".text-black30" ($black30)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black40"</span
+					>&gt;</span
+				>Black tone = ".text-black40" ($black40)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black50"</span
+					>&gt;</span
+				>Black tone = ".text-black50" ($black50)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black60"</span
+					>&gt;</span
+				>Black tone = ".text-black60" ($black60)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black70"</span
+					>&gt;</span
+				>Black tone = ".text-black70" ($black70)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black80"</span
+					>&gt;</span
+				>Black tone = ".text-black80" ($black80)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black90"</span
+					>&gt;</span
+				>Black tone = ".text-black90" ($black90)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-black"</span
+					>&gt;</span
+				>Black tone = ".text-black" ($black)<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 		</div>
 		<hr />
 		<div class="container">
@@ -127,35 +253,120 @@
 				Link color = <a class="link-light-grey" href="#">".link-light-grey"</a>
 			</p>
 			<p>Link color = <a class="link-white" href="#">".link-white"</a></p>
-			<code class="code-text">
-				<p class="code-text text-color-tag text-light">
-					&lt;p&gt;Link color = &lt;a class="link-primary"
-					href="#"&gt;".link-primary"&lt;/a&gt;(&lt;a href="#"&gt;Default link
-					color&lt;/a&gt;)&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-secondary"
-					href="#"&gt;".link-secondary"&lt;/a&gt;&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-warning"
-					href="#"&gt;".link-warning"&lt;/a&gt;&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-danger"
-					href="#"&gt;".link-danger"&lt;/a&gt;&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-black"
-					href="#"&gt;".link-black"&lt;/a&gt;&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-light-grey"
-					href="#"&gt;".link-light-grey"&lt;/a&gt;&lt;/p&gt;
-					<br />
-					&lt;p&gt;Link color = &lt;a class="link-white"
-					href="#"&gt;".link-white"&lt;/a&gt;&lt;/p&gt;
-					<br />
-				</p>
-			</code>
+
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-primary"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-primary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				>
+				(<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>Default link color<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				>)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-secondary"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-secondary"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-warning"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-warning"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-danger"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-danger"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-black"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-black"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-light-grey"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-light-grey"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span
+				>Link color =
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">a</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"link-white"</span
+					>
+					<span class="hljs-attr">href</span>=<span class="hljs-string"
+						>"#"</span
+					>&gt;</span
+				>".link-white"<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">a</span>&gt;</span
+				><span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 		</div>
 		<hr />
 		<footer class="container">© 2019 Suitmedia</footer>
+		<h1>KONTOL</h1>
 	</div>
 </template>
 
@@ -174,14 +385,13 @@ p {
 	margin-inline-end: 0px;
 }
 .main_content {
-	width: 70%;
+	width: 80%;
 	margin-left: 230px;
 	box-sizing: border-box;
 	margin-top: 50px;
 	height: 100%;
 	overflow: hidden;
 	padding: 60px 80px 80px 120px;
-	font-family: 'Poppins';
 }
 
 hr {
@@ -194,25 +404,14 @@ hr {
 	padding: 3px;
 }
 
-a {
-	// color: #0094ed;
-	font-family: 'Poppins';
-}
-
-p {
-	font-family: 'Poppins', monospace;
-}
-
 a:hover {
 	color: #717171;
 }
 
-.main-content-text {
-	font-family: 'Poppins';
-}
 .main-content-title {
 	font-weight: 700;
 	color: #ff6700;
+	font-family: 'Fira Code';
 }
 
 .wrapper .main_content .header {
@@ -255,9 +454,31 @@ p {
 	font-family: monospace;
 }
 
-@media only screen and (max-width: 600px) {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: #be4678;
+	font-weight: lighter;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+	color: #2a9292;
+}
+
+@media only screen and (max-width: 1240px) {
 	.main_content {
 		margin: 0px 80px 0px 100px;
+		width: 92%;
 	}
 }
 </style>

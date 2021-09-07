@@ -1,6 +1,6 @@
 <template>
-	<div class="wrapper">
-		<div class="sidebar">
+	<div class="wrapper container">
+		<div class="sidebar" :class="{ 'open-sidebar': isSidebarOpen }">
 			<ul>
 				<li>
 					<NuxtLink to="/getstarted">Get Started</NuxtLink>
@@ -77,7 +77,6 @@ export default {}
 	text-decoration: none;
 	padding-left: 10px;
 	padding-top: 10px;
-	font-family: 'Poppins', sans;
 }
 
 body {
@@ -87,7 +86,7 @@ body {
 .wrapper {
 	display: flex;
 	position: relative;
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-left: 15px;
 }
 
@@ -98,8 +97,15 @@ body {
 	box-shadow: 0px 6px 4px rgba($black, 0.5);
 	padding: 30px 0px;
 	position: fixed;
-	overflow: auto;
+	overflow: scroll;
+	// transform: translateX(-100%);
+	transition: all 0.5s;
 }
+
+.open-sidebar {
+	transform: translateX(0);
+}
+
 .sidebar {
 	left: 0;
 	margin-bottom: 10px;
@@ -112,7 +118,7 @@ body {
 }
 
 .wrapper .sidebar ul li {
-	padding: 10px;
+	padding: 5px;
 }
 
 .wrapper .sidebar ul li a {
@@ -122,10 +128,6 @@ body {
 
 .wrapper .sidebar ul li a .fas {
 	width: 25px;
-}
-
-ul li a:hover {
-	color: white;
 }
 
 a:hover {
@@ -148,5 +150,15 @@ a:hover {
 	margin: 20px;
 	color: #717171;
 	line-height: 25px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
 }
 </style>

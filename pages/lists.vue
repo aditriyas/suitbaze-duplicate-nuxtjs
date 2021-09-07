@@ -17,23 +17,47 @@
 				</li>
 				<li>dignissimos sequi illum doloremque.</li>
 			</ol>
-			<p class="code-text">
-				&lt;ol&gt;<br />
-				&lt;li&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-				Velit debitis tempore repellat dolorem magni placeat magnam deleniti
-				exercitationem minima iusto, quasi provident nostrum aut vitae
-				blanditiis quas optio! Ducimus, quo.&lt;/li&gt;<br />
-				&lt;li&gt;Incidunt magni consequatur adipisci officiis vero placeat
-				consectetur&lt;/li&gt;<br />
-				&lt;li&gt;id facere,<br />
-				&lt;ol type="a"&gt;<br />
-				&lt;li&gt;molestiae in,&lt;/li&gt;<br />
-				&lt;li&gt;ducimus necessitatibus hic ad esse consequuntur&lt;/li&gt;<br />
-				&lt;/ol&gt;<br />
-				&lt;/li&gt;<br />
-				&lt;li&gt;dignissimos sequi illum doloremque.&lt;/li&gt;<br />
-				&lt;/ol&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span
+					class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Incidunt magni consequatur adipisci officiis vero placeat
+				consectetur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>id facere,
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">ol</span>
+					<span class="hljs-attr">type</span>=<span class="hljs-string"
+						>"a"</span
+					>&gt;</span
+				>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>molestiae in,<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>ducimus necessitatibus hic ad esse consequuntur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>dignissimos sequi illum doloremque.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ol</span>&gt;</span
+				></code
+			>
 			<h5>Unordered List</h5>
 			<ul class="unordered-list">
 				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
@@ -49,36 +73,77 @@
 				</li>
 				<li>dignissimos sequi illum doloremque.</li>
 			</ul>
-			<p class="code-text">
-				&lt;ul&gt;<br />
-				&lt;li&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-				Velit debitis tempore repellat dolorem magni placeat magnam deleniti
-				exercitationem minima iusto, quasi provident nostrum aut vitae
-				blanditiis quas optio! Ducimus, quo.&lt;/li&gt;<br />
-				&lt;li&gt;Incidunt magni consequatur adipisci officiis vero placeat
-				consectetur&lt;/li&gt;<br />
-				&lt;li&gt;id facere,<br />
-				&lt;ul&gt;<br />
-				&lt;li&gt;molestiae in,&lt;/li&gt;<br />
-				&lt;li&gt;ducimus necessitatibus hic ad esse consequuntur&lt;/li&gt;<br />
-				&lt;/ul&gt;<br />
-				&lt;/li&gt;<br />
-				&lt;li&gt;dignissimos sequi illum doloremque.&lt;/li&gt;<br />
-				&lt;/ul&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span
+					class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Incidunt magni consequatur adipisci officiis vero placeat
+				consectetur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>id facere, <br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">ul</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>molestiae in,<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>ducimus necessitatibus hic ad esse consequuntur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ul</span>&gt;<br
+				/></span>
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>dignissimos sequi illum doloremque.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ul</span>&gt;</span
+				></code
+			>
 			<h5>Inline List</h5>
 			<ol class="list-inline">
 				<li>Lorem ></li>
 				<li>Ipsum ></li>
 				<li>Dolor</li>
 			</ol>
-			<p class="code-text">
-				&lt;ol class="list-inline"&gt;<br />
-				&lt;li&gt;Lorem&lt;/li&gt;<br />
-				&lt;li&gt;Ipsum&lt;/li&gt;<br />
-				&lt;li&gt;Dolor&lt;/li&gt;<br />
-				&lt;/ul&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">ol</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"list-inline"</span
+					>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Lorem &gt;
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Ipsum &gt;
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Dolor<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ol</span>&gt;</span
+				></code
+			>
 			<h5>No style List</h5>
 			<ul class="list-nostyle">
 				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
@@ -94,23 +159,50 @@
 				</li>
 				<li>dignissimos sequi illum doloremque.</li>
 			</ul>
-			<p class="code-text">
-				&lt;ul&gt;<br />
-				&lt;li&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-				Velit debitis tempore repellat dolorem magni placeat magnam deleniti
-				exercitationem minima iusto, quasi provident nostrum aut vitae
-				blanditiis quas optio! Ducimus, quo.&lt;/li&gt;<br />
-				&lt;li&gt;Incidunt magni consequatur adipisci officiis vero placeat
-				consectetur&lt;/li&gt;<br />
-				&lt;li&gt;id facere,<br />
-				&lt;ul&gt;<br />
-				&lt;li&gt;molestiae in,&lt;/li&gt;<br />
-				&lt;li&gt;ducimus necessitatibus hic ad esse consequuntur&lt;/li&gt;<br />
-				&lt;/ul&gt;<br />
-				&lt;/li&gt;<br />
-				&lt;li&gt;dignissimos sequi illum doloremque.&lt;/li&gt;<br />
-				&lt;/ul&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">ul</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"list-nostyle"</span
+					>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span
+					class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>Incidunt magni consequatur adipisci officiis vero placeat
+				consectetur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>id facere,<br />
+				<span class="hljs-tag"
+					>&lt;<span class="hljs-name">ul</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>molestiae in,<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>ducimus necessitatibus hic ad esse consequuntur<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ul</span>&gt;<br
+				/></span>
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;<br
+				/></span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span
+				>dignissimos sequi illum doloremque.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">li</span>&gt;</span
+				><br />
+				<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">ul</span>&gt;</span
+				></code
+			>
 			<hr />
 			<footer class="container">© 2019 Suitmedia</footer>
 		</div>
@@ -125,14 +217,13 @@ export default {
 
 <style lang="scss" scoped>
 .main_content {
-	width: 70%;
+	width: 80%;
 	margin-left: 230px;
 	box-sizing: border-box;
 	margin-top: 50px;
 	height: 100%;
 	overflow: hidden;
 	padding: 60px 80px 80px 120px;
-	font-family: 'Poppins';
 }
 
 .list-inline {
@@ -151,7 +242,6 @@ h5 {
 .unordered-list,
 .list-nostyle,
 .ordered-list {
-	font-family: 'Poppins';
 	font-weight: 100;
 	margin-left: 40px;
 }
@@ -167,20 +257,17 @@ li {
 
 a {
 	color: #0094ed;
-	font-family: 'Poppins';
 }
 
 a:hover {
 	color: #717171;
 }
 
-.main-content-text {
-	font-family: 'Poppins';
-}
 .main-content-title,
 h2 {
 	font-weight: 700;
 	color: #ff6700;
+	font-family: 'Fira Code';
 }
 
 .wrapper .main_content .header {
@@ -223,9 +310,38 @@ p {
 	margin-left: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: #be4678;
+	font-weight: lighter;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+	color: #2a9292;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	background: #efecf4;
+	color: #585260;
+	padding: 0.5em;
+}
+@media only screen and (max-width: 1240px) {
 	.main_content {
 		margin: 0px 80px 0px 100px;
+		width: 92%;
 	}
 }
 </style>

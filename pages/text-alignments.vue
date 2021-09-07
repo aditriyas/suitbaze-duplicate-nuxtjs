@@ -1,7 +1,7 @@
 <template>
 	<div class="main_content font-fira">
-		<h2 class="main-content-title">Text Alignment</h2>
 		<div class="container">
+			<h2 class="main-content-title">Text Alignment</h2>
 			<h5 class="text-alignment-example">Left Align</h5>
 			<p class="text-left">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -12,12 +12,22 @@
 				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 				mollit anim id est laborum.
 			</p>
-			<p class="code-text">
-				&lt;p class="text-left"&gt;Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Corrupti quod ab quidem, vero ipsam eligendi, ratione
-				reprehenderit saepe dignissimos error iusto! Hic fuga animi facilis
-				optio, id delectus consequatur esse.&lt;/p&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-left"</span
+					>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+				sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+				mollit anim id est laborum.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 			<h5 class="text-alignment-example">Center Align</h5>
 			<p class="text-center">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -28,12 +38,22 @@
 				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 				mollit anim id est laborum.
 			</p>
-			<p class="code-text">
-				&lt;p class="text-center"&gt;Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Corrupti quod ab quidem, vero ipsam eligendi, ratione
-				reprehenderit saepe dignissimos error iusto! Hic fuga animi facilis
-				optio, id delectus consequatur esse.&lt;/p&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-center"</span
+					>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+				sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+				mollit anim id est laborum.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 			<h5 class="text-alignment-example">Right Align</h5>
 			<p class="text-right">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,12 +64,22 @@
 				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 				mollit anim id est laborum.
 			</p>
-			<p class="code-text">
-				&lt;p class="text-right"&gt;Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Corrupti quod ab quidem, vero ipsam eligendi, ratione
-				reprehenderit saepe dignissimos error iusto! Hic fuga animi facilis
-				optio, id delectus consequatur esse.&lt;/p&gt;
-			</p>
+			<code class="html hljs xml code-text"
+				><span class="hljs-tag"
+					>&lt;<span class="hljs-name">p</span>
+					<span class="hljs-attr">class</span>=<span class="hljs-string"
+						>"text-right"</span
+					>&gt;</span
+				>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+				sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+				mollit anim id est laborum.<span class="hljs-tag"
+					>&lt;/<span class="hljs-name">p</span>&gt;</span
+				></code
+			>
 			<hr />
 			<footer class="container">© 2019 Suitmedia</footer>
 		</div>
@@ -64,14 +94,13 @@ export default {
 
 <style lang="scss" scoped>
 .main_content {
-	width: 70%;
+	width: 80%;
 	margin-left: 230px;
 	box-sizing: border-box;
 	margin-top: 50px;
 	height: 100%;
 	overflow: hidden;
 	padding: 60px 80px 80px 120px;
-	font-family: 'Poppins';
 }
 
 .list-inline {
@@ -99,6 +128,7 @@ a:hover {
 h2 {
 	font-weight: 700;
 	color: #ff6700;
+	font-family: 'Fira Code';
 }
 
 .wrapper .main_content .header {
@@ -127,9 +157,39 @@ p {
 	padding: 0.5em;
 }
 
-@media only screen and (max-width: 600px) {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: #be4678;
+	font-weight: lighter;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+	color: #2a9292;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	background: #efecf4;
+	color: #585260;
+	padding: 0.5em;
+}
+
+@media only screen and (max-width: 1240px) {
 	.main_content {
 		margin: 0px 80px 0px 100px;
+		width: 92%;
 	}
 }
 </style>

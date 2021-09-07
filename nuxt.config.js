@@ -24,7 +24,7 @@ export default {
 	},
 	// Global page headers (https://go.nuxtjs.dev/config-head)
 	head: {
-		title: 'Baze',
+		title: 'Suit baze Documentation',
 		meta: defaultMeta,
 		link: [
 			{ rel: 'apple-touch-icon', href: '/apple-icon.png' },

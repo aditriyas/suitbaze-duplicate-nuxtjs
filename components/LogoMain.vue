@@ -15,4 +15,12 @@
 	color: #fff;
 	font-size: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+	.bzi-github {
+		color: #fff;
+		width: 100px;
+		padding-left: 150px;
+	}
+}
 </style>
