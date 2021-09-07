@@ -63,7 +63,7 @@
 				</div>
 
 				<div class="text-size14">
-					<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-group"</span>&gt;</span>
+					<pre><code class="html hljs xml code-text"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-group"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card--primary mb-12"</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card--header"</span>&gt;</span>
             Card header
@@ -277,7 +277,7 @@
 				</div>
 
 				<div class="text-size14">
-					<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bzg bzg--flex card-group js-card"</span> <span class="hljs-attr">data-card</span>=<span class="hljs-string">"dev/data/data.json"</span>&gt;</span>
+					<pre><code class="html hljs xml code-text"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bzg bzg--flex card-group js-card"</span> <span class="hljs-attr">data-card</span>=<span class="hljs-string">"dev/data/data.json"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bzg_c mb-24"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span> <span class="hljs-attr">data-col</span>=<span class="hljs-string">"s12,m6,l3"</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card--primary"</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card--header"</span>&gt;</span>

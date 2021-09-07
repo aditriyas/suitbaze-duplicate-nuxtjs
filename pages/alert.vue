@@ -81,13 +81,21 @@
 		</div>
 		<div class="container">
 			<h2 class="main-content-title">Alert Box</h2>
-			<button class="btn--primary js-trigger-alert" data-alert="#alert1">
+			<button
+				@click="showDialog = true"
+				class="btn--primary js-trigger-alert"
+				data-alert="#alert1"
+			>
 				Alert 1
 			</button>
-			<button class="btn--primary js-trigger-alert" data-alert="#alert2">
+			<button
+				@click="showDialog = true"
+				class="btn--primary js-trigger-alert"
+				data-alert="#alert2"
+			>
 				Alert 2
 			</button>
-			<code class="html hljs xml code-text mt-2"
+			<code class="html hljs xml code-text"
 				><span class="hljs-tag"
 					>&lt;<span class="hljs-name">button</span>
 					<span class="hljs-attr">class</span>=<span class="hljs-string"
@@ -388,6 +396,7 @@ p {
 	color: #585260;
 	padding: 0.5em;
 	margin-bottom: 10px;
+	margin-top: 15px;
 	overflow: auto;
 	width: 100%;
 }

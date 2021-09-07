@@ -69,6 +69,23 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+a.nuxt-link-active {
+	background-color: #e6e6e6;
+	padding: 0.5em;
+	padding-right: 10px;
+	font-weight: normal;
+}
+/* exact link will show the primary color for only the exact matching link */
+a.nuxt-link-exact-active {
+	color: #00c58e;
+}
+
+li,
+a:hover {
+	color: #00c58e;
+	font-weight: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
